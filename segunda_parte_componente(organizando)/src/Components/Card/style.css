@@ -1,0 +1,23 @@
+.card{
+	background-color: #fff;
+	box-shadow: 1px 3px 6px 0 rgba(51, 51, 51, 0.4);
+	width: 95%;
+}
+.card_body, .card_footer{
+	padding: 1.2rem .54rem;
+}
+.card_footer{
+	border-top: 1px solid rgba(51, 51, 51, 0.4);
+}
+/*Textos*/
+h1{
+	font-size: 8vw;
+	font-weight: bold;
+}
+
+/*Last Desktop*/
+@media(min-width: 48em){
+	.card{
+		width: 25%;
+	}
+}
